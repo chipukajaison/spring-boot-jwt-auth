@@ -1,4 +1,4 @@
-package zw.co.kenac.authemplate.controller;
+package com.chipukajaison.authemplate.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import zw.co.kenac.authemplate.dto.request.LoginRequest;
-import zw.co.kenac.authemplate.dto.request.RegisterRequest;
-import zw.co.kenac.authemplate.model.User;
-import zw.co.kenac.authemplate.security.TokenProvider;
-import zw.co.kenac.authemplate.service.AuthenticationService;
+import com.chipukajaison.authemplate.dto.request.LoginRequest;
+import com.chipukajaison.authemplate.dto.request.RegisterRequest;
+import com.chipukajaison.authemplate.model.User;
+import com.chipukajaison.authemplate.security.TokenProvider;
+import com.chipukajaison.authemplate.service.AuthenticationService;
 
 /**
  * @author Jaison.Chipuka on 6/6/2024

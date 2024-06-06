@@ -1,4 +1,4 @@
-package zw.co.kenac.authemplate.model;
+package com.chipukajaison.authemplate.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -7,7 +7,7 @@ import jakarta.persistence.Table;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import zw.co.kenac.authemplate.model.enums.UserRole;
+import com.chipukajaison.authemplate.model.enums.UserRole;
 
 import java.util.Collection;
 import java.util.List;

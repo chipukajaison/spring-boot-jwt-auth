@@ -1,4 +1,4 @@
-package zw.co.kenac.authemplate;
+package com.chipukajaison.authemplate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

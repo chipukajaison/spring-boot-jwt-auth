@@ -1,4 +1,4 @@
-package zw.co.kenac.authemplate;
+package com.chipukajaison.authemplate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

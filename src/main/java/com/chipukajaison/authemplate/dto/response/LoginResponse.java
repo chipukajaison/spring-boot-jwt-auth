@@ -1,4 +1,4 @@
-package zw.co.kenac.authemplate.dto.response;
+package com.chipukajaison.authemplate.dto.response;
 
 /**
  * @author Jaison.Chipuka on 6/6/2024

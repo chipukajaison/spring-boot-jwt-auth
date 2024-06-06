@@ -1,4 +1,4 @@
-package zw.co.kenac.authemplate.model.enums;
+package com.chipukajaison.authemplate.model.enums;
 
 /**
  * @author Jaison.Chipuka on 6/6/2024

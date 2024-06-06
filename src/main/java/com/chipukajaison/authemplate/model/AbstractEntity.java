@@ -1,4 +1,4 @@
-package zw.co.kenac.authemplate.model;
+package com.chipukajaison.authemplate.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

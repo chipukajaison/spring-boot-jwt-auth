@@ -1,4 +1,4 @@
-package zw.co.kenac.authemplate.security;
+package com.chipukajaison.authemplate.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

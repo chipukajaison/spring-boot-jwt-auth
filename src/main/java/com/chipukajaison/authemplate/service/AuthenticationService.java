@@ -1,15 +1,14 @@
-package zw.co.kenac.authemplate.service;
+package com.chipukajaison.authemplate.service;
 
+import com.chipukajaison.authemplate.model.User;
+import com.chipukajaison.authemplate.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import zw.co.kenac.authemplate.dto.request.RegisterRequest;
-import zw.co.kenac.authemplate.model.User;
-import zw.co.kenac.authemplate.model.enums.UserRole;
-import zw.co.kenac.authemplate.repository.UserRepository;
+import com.chipukajaison.authemplate.dto.request.RegisterRequest;
+import com.chipukajaison.authemplate.model.enums.UserRole;
 
 /**
  * @author Jaison.Chipuka on 6/6/2024
