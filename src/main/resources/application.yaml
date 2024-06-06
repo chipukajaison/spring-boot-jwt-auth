@@ -1,0 +1,17 @@
+security:
+  jwt:
+    token:
+      secret-key: ETEWEW9EE73434983HEWYEBEFEF
+
+spring:
+  application:
+    name: "Auth Template"
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/auth
+    username: postgres
+    password:
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
